@@ -52,7 +52,7 @@ class ProductionConfig(BaseConfig):
     """Production configuration."""
     SECRET_KEY = 'my_precious'
     DEBUG = False
-    SQLALCHEMY_DATABASE_URI = 'postgresql://localhost/example'
+    SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:colin2@localhost/userinfo'
     DEBUG_TB_ENABLED = False
     STRIPE_SECRET_KEY = 'foo'
     STRIPE_PUBLISHABLE_KEY = 'bar'
